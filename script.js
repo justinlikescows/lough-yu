@@ -3,7 +3,8 @@ const feedbackContainer = document.createElement('div'); // Create a container f
 document.body.appendChild(feedbackContainer); // Append it to the body
 
 // List of names in the order they should be clicked
-const names = ['John Lough - Alpha', 'Ran Cao - Beta', 'Belyn Lai - Gamma', 'Andrew Moncada - Eta', 'Molly Greathouse - Iota', 'Arthur Avetisov - Rho', 'Siddhartha Konda - Tau', 'Andy Chuang - Psi', 'Steffi Lin - Tau', 'Akila Kumar - Alpha Delta', 'Aishu Parsuram - Alpha Iota', 'Ronica Cheng - Alpha Nu', 'Isaac Martinez - Alpha Nu'];
+const names = ['John Lough - Alpha', 'Ran Cao - Beta', 'Belyn Lai - Gamma', 'Andrew Moncada - Eta', 'Molly Greathouse - Iota', 
+'Arthur Avetisov - Rho', 'Siddhartha Konda - Tau', 'Andy Chuang - Psi', 'Steffi Lin - Alpha Delta', 'Akila Kumar - Alpha Zeta', 'Aishu Parsuram - Alpha Iota', 'Ronica Cheng - Alpha Nu', 'Isaac Martinez - Alpha Pi'];
 
 // Function to create and display buttons with names
 function createButtons(names) {
